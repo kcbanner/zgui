@@ -17,11 +17,7 @@
             .hash = "system_sdk-0.3.0-dev-alwUNqAaaALJ5VoZImZo3n6prezBnQnrpziun3ZeZwcp",
             .lazy = true,
         },
-        .zglfw = .{
-            .url = "https://github.com/zig-gamedev/zglfw/archive/0dd29d8073487c9fe1e45e6b729b3aac271d5a71.tar.gz",
-            .hash = "zglfw-0.10.0-dev-zgVDNIG4IQBWN_sfMD-xfC9bJS2hbBN2W7jNlDLovcdC",
-            .lazy = true,
-        },
+        .zglfw = .{ .path = "../zglfw" },
         .zgpu = .{
             .url = "https://github.com/zig-gamedev/zgpu/archive/c512b60c1f0cd438dcc6297083d0e3d91ad5e717.tar.gz",
             .hash = "zgpu-0.12.0-dev-nqFT5OOmCABcwCeEje63Wohd7SqQ73CbPqZzmuqArpgF",
